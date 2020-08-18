@@ -2,5 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #111;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-list {
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background-color: lightslategrey;
+  opacity: 30%;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.home-content {
+  height: 100vh;
+  display: flex;
+}
+
+.home-content img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  opacity: 100%;
 }
